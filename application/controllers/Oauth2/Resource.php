@@ -13,7 +13,7 @@ class Resource extends CI_Controller {
         @session_start();
         parent::__construct();
         $this->load->library("Server", "server");
-    	$this->server->require_scope("userinfo cloud file node");//you can require scope here 
+        $this->server->require_scope("userinfo");//you can require scope here 
     }
 
     public function index(){
