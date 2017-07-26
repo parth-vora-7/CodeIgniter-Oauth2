@@ -8,7 +8,7 @@ Usage:
 
 4) Get the access token using:
 
-    POST http://localhost/codeigniter-oauth2-server/resource
+    POST http://localhost/codeigniter-oauth2/resource
 
     Request patameters in body:
     
@@ -24,7 +24,7 @@ Usage:
 
 5) To access the resource using the access token:
 
-    POST http://localhost/codeigniter-oauth2-server/resource
+    POST http://localhost/codeigniter-oauth2/resource
 
     Request patameters in body:
     
